@@ -239,3 +239,154 @@ img:hover{
     background-size:cover;
     overflow: hidden;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+}
+
+.bg-dark{
+    background-color: #2E5366 !important;
+}
+.navbar-brand{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: cursive;   
+}
+.navbar-dark .navbar-nav .nav-link{
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.navbar-dark .navbar-nav .nav-item{
+    margin: 0 5px;
+}
+.navbar-dark .navbar-nav .nav-item .active{
+    color: blue !important;
+}
+.form-control{
+    width: 100px;
+}
+.gh{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 10px;
+}
+/*thêm span cho giỏ hàng start*/
+.icon-cart{
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    position: relative;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.attr-nav > a span.badge {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    right: 5px;
+    font-size: 10px;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    padding-top: 2px;
+    background-color: #f43438;
+}
+.badge{
+    display: inline-block;
+    min-width: 10px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+/*thêm span giỏ hàng end*/
+.sgout{
+    color: #fff;
+    margin-left: 5px;
+    font-size: 15px;
+
+}
+/*sửa lại*/
+.dangxuat{
+    width: 80px;
+    font-size: 13px;
+    border-radius: 20px;
+}
+
+/*footer*/
+.footer{
+    background-color: #2E5366 !important;
+    margin-top: 60px;
+}
+.footer-cha {
+    line-height: 40px;
+    display: table;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0px 20px 0px;
+    color: #fff;
+}
+.footer-trai {
+    line-height: 35px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #2b5639;
+}
+.footer-phai {
+    width: 100%;
+    float: left;
+    line-height: 31px;
+    color: #fff !Important;
+    text-align: center;
+}
+img.logos {
+    border-radius: 20px;
+    margin-top: -10px;
+}
+.m1, .m2, .m3 {
+    height: 277px;
+    border-right: 1px solid #2b5639;
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 0px 10px;
+}   
+.text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: -10px;
+}
+p.diachi{
+    margin: 0 0 10px;
+    font-size: 12px;
+}
+p.sub-m {
+    padding: 5px;
+    border-bottom: 1px dashed #fff;
+}
+.img-icon{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
